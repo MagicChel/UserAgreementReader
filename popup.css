@@ -1,17 +1,107 @@
 
-/* Вроде как сбрасывает дефолтные настройки коробки веб-браузера  */
-* {
-  box-sizing: border-box;
+h1 {
+  color: white;
+  font-family: Helvetica, 'Times New Roman', serif;
 }
 
-/* Сброс дефолтных настроек таблицы стилей веб-браузера  */
-body {
-  background-color: #FFF;
-  font-family: 'Raleway', sans-serif;
+header {
+  width: 400px;
+  height: 60px;
+  background-color: rgb(38, 41, 85);
+}
+
+main {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+footer {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(231, 236, 238);
+
+}
+
+.head_logo {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  padding: 0px;
+  bottom: 0px;
+  float: left;
+}
+
+.head_name {
+  width: 200px;
+  height: 50px;
   margin: 0;
   padding: 0;
+  float: right;
+  text-align: left;
 }
 
-h1 {
-  color: red;
+.reader_icon {
+  box-sizing: content-box;
+  width: 60;
+  height: 100%;
+
+
+}
+
+.history_logo {
+  text-align: left;
+
+}
+
+.history {
+  text-align: left;
+}
+
+.feedback_logo {
+  text-align: center;
+}
+
+.feedback {
+  text-align: center;
+}
+
+.activation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"] {
+  width: 45px;
+  height: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #c6c6c6;
+  outline: none;
+  border-radius: 50px;
+  box-shadow: inset 0 0 5px rgba(0,0,0, .2);
+  transition: 0.5s;
+  position: relative;
+}
+input:checked[type="checkbox"] {
+  background: #02a9f4;
+}
+input[type="checkbox"]::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0,0,0, .2);
+  transition: 0.5s;
+}
+input:checked[type="checkbox"]::before {
+  left: 25px;
 }

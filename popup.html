@@ -2,46 +2,37 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link href="../reset.css" type="text/css" rel="stylesheet">
         <link href="../popup.css" type="text/css" rel="stylesheet">
+        <link href="../popup.js" type="text/javascript"  rel="stylesheet">
     </head>   
     <body>
         <header>
-            <table>
-                <tr>
-                    <td align="center">
-                        <h1>UAR</h1>
-                    </td>
-                    <td align="center">    
-                        <img src="\MediaFiles\reader_icon.png" width="30" height="30" alt="История">
-                    </td>    
-                </tr>
-            </table>  
+            <div class="head_logo">           
+                <img class="reader_icon" src="\MediaFiles\reader_icon.png" width="40" height="40" alt="Logo"> 
+            </div>
+            <div class="head_name">
+                <h1>UserAR</h1>
+            </div>  
         </header>
         <main>
         </main>
         <footer>
-            <table>
-                <tr>
-                    <td align="center">
-                        <img src="\MediaFiles\clock(1).png" width="20" height="20"  alt="History"/>
-                    </td>
-                    <td align="center">
-                        <a href="" target="_blank">History</a>
-                    </td>    
-                    <td align="center">
-                        <img src="\MediaFiles\email.png" width="20" height="20" alt="Feedback"/>
-                    </td>
-                    <td align="center">
-                        <a href="" target="_blank">Feedback</a>
-                    </td>
-                    <td align="center">
-                        <input type="radio" name="cheese" id="on" value="on">
-                        <label for="on">On</label>
-                        <input type="radio" name="cheese" id="off" value="off">
-                        <label for="off">Off</label>
-                    </td>    
-                </tr>
-            </table>
+            <div class="history_logo">
+                <img src="\MediaFiles\clock(1).png" width="20" height="20"  alt="History"/>
+            </div>
+            <div class="history">
+                <a href="" target="_blank">History</a>
+            </div>
+            <div class="feedback_logo">
+                <img src="\MediaFiles\email.png" width="20" height="20" alt="Feedback"/>
+            </div>
+            <div class="feedback">
+                <a href="" target="_blank">Feedback</a>
+            </div>
+            <div class="activation">
+                <input type="checkbox">
+            </div>
         </footer>
     </body>
   </html>

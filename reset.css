@@ -1,0 +1,10 @@
+/* Сброс дефолтных настроек таблицы стилей веб-браузера  */
+body  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    color: black;
+  }
