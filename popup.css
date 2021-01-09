@@ -57,14 +57,20 @@ footer {
 
 .history {
   text-align: left;
+  width: 30px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .feedback_logo {
   text-align: center;
+  margin: 0 auto;
 }
 
 .feedback {
   text-align: center;
+  margin: 0 auto;  
 }
 
 .activation {
